@@ -1,0 +1,161 @@
+@media print {
+    .noprint {
+        display: none;
+    }
+
+}
+/*#fffeeb*/
+body{
+    background-color: rgba(220, 238, 255, 0.71);
+}
+
+
+.container{
+    background-color: white;
+}
+
+.container-fluid{
+    background-color: white;
+}
+.bg-success{
+    color: white;
+}
+
+
+.clickable {
+    cursor: pointer;
+}
+
+.micontenido {
+    overflow-x: auto;
+}
+
+.ancho-min {
+    min-width: 200px;
+}
+.ancho-max {
+    max-width: 200px;
+}
+.content-table {
+
+    padding: 20px;
+    border-collapse: collapse;
+    margin: 25px 0;
+    font-size: 0.7em;
+    min-width: 400px;
+    border-radius: 5px 5px 0 0;
+    overflow: auto;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.15);
+}
+
+.modal-dialog {
+    min-width: 600px;
+}
+
+.content-table thead tr {
+    background-color: #dbf2f8;
+    /*color: #ffffff;*/
+    text-align: center;
+    font-weight: bold;
+}
+
+.content-table tbody th {
+    background-color: #dbf2f8;
+    /*color: #ffffff;*/
+    text-align: left;
+    font-weight: bold;
+}
+
+.content-table th,
+.content-table td {
+    /*padding: 12px 15px;*/
+}
+
+.content-table tbody tr {
+    border-bottom: 1px solid #dddddd;
+}
+
+/*
+
+.content-table tbody tr:nth-of-type(even) {
+  background-color: #f3f3f3;
+}
+*/
+
+.content-table tbody tr:last-of-type {
+    border-bottom: 2px solid #dbf2f8;
+}
+
+.content-table tbody tr.active-row {
+    font-weight: bold;
+    color: #dbf2f8;
+}
+
+.form-control {
+    min-width: 150px;
+}
+
+.boton_pegado {
+    cursor: pointer;
+    position: absolute;
+    top: 50%;
+    right: 0%;
+    padding: 12px 12px;
+    transform: translate(0%, -50%);
+}
+
+.boton_pegado:hover {
+    background: #f58282;
+}
+
+.boton_pegado_input {
+    background: #b9efe6;
+    cursor: pointer;
+    position: absolute;
+    top: 50%;
+    right: 0%;
+    padding: 16px 12px;
+    transform: translate(+50%, -50%);
+}
+
+.boton_pegado_input:hover {
+    background: #0dd9ae;
+}
+
+.ui-front {
+    z-index: 9999999 !important;
+}
+
+[contenteditable="true"] {
+    border-style: solid;
+    border-width: 2px;
+    background-color: #fdf9f3;
+}
+
+.ancho120 {
+    max-width: 80px;
+    width: 80px;
+}
+
+.ancho60 {
+    max-width: 40px;
+    width: 40px;
+}
+
+td {
+    text-align: center;
+    vertical-align: middle !important;
+}
+
+.direccion-entrega {
+    background-color: #fdf9f3;
+}
+
+.datos-generales {
+    background-color: #dbf2f8;
+
+}
+/*
+body {
+    background-color: #fff9f7;
+}*/
