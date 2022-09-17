@@ -1,7 +1,7 @@
 # ausentismo
 Sistema para llevar control de ausencias  y  motivos.
 La carga se hace de a rangos y se corrobora que no haya superposicion de fechas.
-Las tablas  de empleados y plantas/sucurasles las toma de otro sistema de RRHH.
+Las tablas  de empleados y plantas/sucurasles las toma de otro sistema.
 Reporte grafico se realiza con la API de Highcharts.js
 
 Nota de uso:
